@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ATS Resume Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>ATS Resume Checker (PDF)</h1>
+    <input type="file" id="resumeUpload" accept=".pdf" />
+    <button onclick="analyzeResume()">Analyze</button>
+    <div id="results" class="results"></div>
+  </div>
+
+  <!-- Load pdf.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

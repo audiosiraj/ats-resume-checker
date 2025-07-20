@@ -58,6 +58,6 @@ ats-resume-checker/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/ats-resume-checker.git
+git clone https://github.com/audiosiraj/ats-resume-checker
 cd ats-resume-checker
 
